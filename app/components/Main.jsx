@@ -5,8 +5,9 @@ var Main = (props) => {
   return (
     <div>
       <Nav/>
-      <h2>Main Component</h2>
+      <div className="side-margin">
       {props.children}
+      </div>
     </div>
   );
 }

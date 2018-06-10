@@ -10,9 +10,6 @@ var Nav = () => {
           <li>
             <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink>
           </li>
-          <li>
-            <Link to="/examples" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Examples</Link>
-          </li>
         </ul>
       </div>
       <div className="top-bar-right">
